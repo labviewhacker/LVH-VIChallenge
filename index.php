@@ -46,6 +46,11 @@
 		var jobId = "";
 		var s3Directory = "Jobs/";		
 		
+		//SQS Queues
+		var sqsBaseUrl = 'https://sqs.us-east-1.amazonaws.com/293388242627/';
+		var sqsJobsQueueName = 'LVH_VIChallenge_Jobs/';
+		var jobsQueueUrl = sqsBaseUrl.concat(sqsJobsQueueName);
+		
 		$(document).ready
 		( 
 			function()
@@ -135,6 +140,10 @@
 							{
 								alert("success");
 							}
+							
+							//Send Job Ready Message To Jobs SQS Queue
+							SendSqsMessage(jobsQueueUrl, jobId);					
+							
 						},
 						
 						done: function (event, data) 
@@ -143,7 +152,7 @@
 							{
 								alert("done");
 							}
-						},
+						}, 
 					});
 				});
 			}
@@ -152,9 +161,7 @@
 		/******************************************************************************************************************
 		* S3 Upload Helpers
 		******************************************************************************************************************/	
-				
-			
-			
+						
 		</script>
 	</head>
 
