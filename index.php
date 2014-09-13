@@ -40,11 +40,16 @@
 		******************************************************************************************************************/	
 		DEBUG_ENABLED = true;
 		
+		//Test Area
+		//var num = 12345;
+		//alert(CreateSqsQueue(num));
+		
 		//Variables
 		var localFileName = "";
 		var s3FileName = "";
 		var jobId = "";
-		var s3Directory = "Jobs/";		
+		var s3Directory = "Jobs/";
+		var statusTimeout = 5000;		//ms
 		
 		//SQS Queues
 		var sqsBaseUrl = 'https://sqs.us-east-1.amazonaws.com/293388242627/';
@@ -120,10 +125,13 @@
 						
 						progress: function(e, data)
 						{
+							var percent = Math.round((data.loaded / data.total) * 100);
+							
 							if(DEBUG_ENABLED == true)
 							{
-								alert("progress");
+								alert("progress: " + percent + "%");
 							}
+							
 						},
 						
 						fail: function(e, data) 
@@ -142,7 +150,87 @@
 							}
 							
 							//Send Job Ready Message To Jobs SQS Queue
-							SendSqsMessage(jobsQueueUrl, jobId);					
+							
+							//Create Job Specific 
+							var queueName = "LVH_VIChallengeJob_";// + jobId;
+							var statusSqsQueue = CreateSqsQueue(queueName);
+							//SendSqsMessage(jobsQueueUrl, jobId);
+							
+							//Long Poll For Status Until Job Is Complete, Update Elements
+							
+							var workerState = -1;							
+							var now = new Date();
+							var lastTime = now.getTime();
+							
+							while(workerState < 4)
+							{
+								//Check Specific Job Queue For Status Updates.  It We Don't Get A Status Update In The Given Time Report Timeout.  We Can Sit In The Queued State 
+								//As Long As We Are Getting Updates, But After Leaving The Queue State We Only Move Forward So Don't Report Other Updates But Always Reset Timer On Update.
+								var status = GetSqsMessage(statusSqsQueue, 5, '');
+																
+								switch(status)
+								{									
+									case 'queued':
+										now = new Date();
+										lastTime = now.getTime();
+										if(workerState <= 0)
+										{
+											workerState = 0;
+											alert('queued');
+										}
+										break;
+									case 'preparing':
+										now = new Date();
+										lastTime = now.getTime();
+										if(workerState < 1)
+										{
+											workerState = 1;
+											alert('queued');
+										}
+										break;
+									case 'processing':
+										now = new Date();
+										lastTime = now.getTime();
+										if(workerState < 2)
+										{
+											workerState = 2;
+											alert('queued');
+										}
+										break;
+									case 'uploading':
+										now = new Date();
+										lastTime = now.getTime();
+										if(workerState < 3)
+										{
+											workerState = 3;
+											alert('queued');
+										}
+										break;
+									case 'complete':
+										now = new Date();
+										lastTime = now.getTime();
+										if(workerState < 4)
+										{
+											workerState = 4;
+											alert('queued');
+										}
+										break;
+									default:
+										workerState = -1;
+										break;
+								}		
+								
+								//Check For Timeout
+								now = new Date();
+								alert("Last Time: " + lastTime + "\nCurrentTime : " + now.getTime());
+								if( (now.getTime() - lastTime) > statusTimeout)
+								{
+									alert("timeout");
+									break;
+								}
+							}
+							
+							//Check workerState And Either Update Page Or Report Error
 							
 						},
 						
