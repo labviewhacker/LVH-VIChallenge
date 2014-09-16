@@ -8,17 +8,27 @@
 
 </Property>
 	<Item Name="Private" Type="Folder">
+		<Item Name="Database" Type="Folder">
+			<Item Name="Build DB Connection String.vi" Type="VI" URL="../Private/Database/Build DB Connection String.vi"/>
+			<Item Name="Close Database Connection.vi" Type="VI" URL="../Private/Database/Close Database Connection.vi"/>
+			<Item Name="Insert Challenge Entry.vi" Type="VI" URL="../Private/Database/Insert Challenge Entry.vi"/>
+			<Item Name="Open Database Connection.vi" Type="VI" URL="../Private/Database/Open Database Connection.vi"/>
+		</Item>
 		<Item Name="Type Defs" Type="Folder">
+			<Item Name="Database" Type="Folder">
+				<Item Name="Score.ctl" Type="VI" URL="../Private/Type Defs/Database/Score.ctl"/>
+				<Item Name="Table_challenge_entries.ctl" Type="VI" URL="../Private/Type Defs/Database/Table_challenge_entries.ctl"/>
+			</Item>
 			<Item Name="JSON_job.ctl" Type="VI" URL="../Private/Type Defs/JSON_job.ctl"/>
 			<Item Name="JSON_status.ctl" Type="VI" URL="../Private/Type Defs/JSON_status.ctl"/>
 			<Item Name="VIChallenge Config.ctl" Type="VI" URL="../Private/Type Defs/VIChallenge Config.ctl"/>
 			<Item Name="Worker State.ctl" Type="VI" URL="../Public/Worker State.ctl"/>
 		</Item>
 		<Item Name="Load Config.vi" Type="VI" URL="../Private/Load Config.vi"/>
+		<Item Name="Poll For Jobs.vi" Type="VI" URL="../Private/Poll For Jobs.vi"/>
+		<Item Name="Send Status.vi" Type="VI" URL="../Private/Send Status.vi"/>
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Item Name="VIChallenge Main.vi" Type="VI" URL="../Public/VIChallenge Main.vi"/>
 	</Item>
-	<Item Name="Poll For Jobs.vi" Type="VI" URL="../Private/Poll For Jobs.vi"/>
-	<Item Name="Send Status.vi" Type="VI" URL="../Private/Send Status.vi"/>
 </Library>
