@@ -14,21 +14,37 @@
 			<Item Name="Insert Challenge Entry.vi" Type="VI" URL="../Private/Database/Insert Challenge Entry.vi"/>
 			<Item Name="Open Database Connection.vi" Type="VI" URL="../Private/Database/Open Database Connection.vi"/>
 		</Item>
-		<Item Name="Type Defs" Type="Folder">
-			<Item Name="Database" Type="Folder">
-				<Item Name="Score.ctl" Type="VI" URL="../Private/Type Defs/Database/Score.ctl"/>
-				<Item Name="Table_challenge_entries.ctl" Type="VI" URL="../Private/Type Defs/Database/Table_challenge_entries.ctl"/>
-			</Item>
-			<Item Name="JSON_job.ctl" Type="VI" URL="../Private/Type Defs/JSON_job.ctl"/>
-			<Item Name="JSON_status.ctl" Type="VI" URL="../Private/Type Defs/JSON_status.ctl"/>
-			<Item Name="VIChallenge Config.ctl" Type="VI" URL="../Private/Type Defs/VIChallenge Config.ctl"/>
-			<Item Name="Worker State.ctl" Type="VI" URL="../Public/Worker State.ctl"/>
+		<Item Name="Grader" Type="Folder">
+			<Item Name="Type Defs" Type="Folder"/>
+			<Item Name="Archive Source File.vi" Type="VI" URL="../Private/Grader/Archive Source File.vi"/>
+			<Item Name="Challenge.ctl" Type="VI" URL="../Private/Grader/Type Defs/Challenge.ctl"/>
+			<Item Name="Create Unit Test.vi" Type="VI" URL="../Private/Create Unit Test.vi"/>
+			<Item Name="Entry Source To Working.vi" Type="VI" URL="../Private/Grader/Entry Source To Working.vi"/>
+			<Item Name="Get Challenge Config By Id.vi" Type="VI" URL="../Private/Get Challenge Config By Id.vi"/>
+			<Item Name="Get Test Vectors.vi" Type="VI" URL="../Private/Grader/Get Test Vectors.vi"/>
+			<Item Name="Load Challenge Data.vi" Type="VI" URL="../Private/Load Challenge Data.vi"/>
+			<Item Name="Load Unit Test Paths.vi" Type="VI" URL="../Private/Grader/Load Unit Test Paths.vi"/>
+			<Item Name="Prep Tests.vi" Type="VI" URL="../Private/Grader/Prep Tests.vi"/>
 		</Item>
-		<Item Name="Load Config.vi" Type="VI" URL="../Private/Load Config.vi"/>
-		<Item Name="Poll For Jobs.vi" Type="VI" URL="../Private/Poll For Jobs.vi"/>
-		<Item Name="Send Status.vi" Type="VI" URL="../Private/Send Status.vi"/>
+		<Item Name="Worker" Type="Folder">
+			<Item Name="Type Defs" Type="Folder">
+				<Item Name="Database" Type="Folder">
+					<Item Name="Score.ctl" Type="VI" URL="../Private/Type Defs/Database/Score.ctl"/>
+					<Item Name="Table_challenge_entries.ctl" Type="VI" URL="../Private/Type Defs/Database/Table_challenge_entries.ctl"/>
+				</Item>
+				<Item Name="JSON_job.ctl" Type="VI" URL="../Private/Type Defs/JSON_job.ctl"/>
+				<Item Name="JSON_status.ctl" Type="VI" URL="../Private/Type Defs/JSON_status.ctl"/>
+				<Item Name="VIChallenge Config.ctl" Type="VI" URL="../Private/Type Defs/VIChallenge Config.ctl"/>
+				<Item Name="Worker State.ctl" Type="VI" URL="../Public/Worker State.ctl"/>
+			</Item>
+			<Item Name="Load Config.vi" Type="VI" URL="../Private/Load Config.vi"/>
+			<Item Name="Poll For Jobs.vi" Type="VI" URL="../Private/Poll For Jobs.vi"/>
+			<Item Name="Send Status.vi" Type="VI" URL="../Private/Send Status.vi"/>
+		</Item>
 	</Item>
 	<Item Name="Public" Type="Folder">
-		<Item Name="VIChallenge Main.vi" Type="VI" URL="../Public/VIChallenge Main.vi"/>
+		<Item Name="VI Grader.vi" Type="VI" URL="../Public/VI Grader.vi"/>
+		<Item Name="Worker Main.vi" Type="VI" URL="../Public/Worker Main.vi"/>
 	</Item>
+	<Item Name="Copy Test Vectors.vi" Type="VI" URL="../Private/Grader/Copy Test Vectors.vi"/>
 </Library>
