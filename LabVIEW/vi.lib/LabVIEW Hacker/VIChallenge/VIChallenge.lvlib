@@ -15,15 +15,29 @@
 			<Item Name="Open Database Connection.vi" Type="VI" URL="../Private/Database/Open Database Connection.vi"/>
 		</Item>
 		<Item Name="Grader" Type="Folder">
-			<Item Name="Type Defs" Type="Folder"/>
+			<Item Name="Type Defs" Type="Folder">
+				<Item Name="Grader Result.ctl" Type="VI" URL="../Private/Grader/Type Defs/Grader Result.ctl"/>
+				<Item Name="Test Type.ctl" Type="VI" URL="../Private/Grader/Type Defs/Test Type.ctl"/>
+				<Item Name="UTF Case Result.ctl" Type="VI" URL="../Private/Grader/Type Defs/UTF Case Result.ctl"/>
+				<Item Name="UTF Result.ctl" Type="VI" URL="../Private/Grader/Type Defs/UTF Result.ctl"/>
+				<Item Name="UTF Status.ctl" Type="VI" URL="../Private/Grader/Type Defs/UTF Status.ctl"/>
+			</Item>
 			<Item Name="Archive Source File.vi" Type="VI" URL="../Private/Grader/Archive Source File.vi"/>
 			<Item Name="Challenge.ctl" Type="VI" URL="../Private/Grader/Type Defs/Challenge.ctl"/>
+			<Item Name="Copy Test Vectors.vi" Type="VI" URL="../Private/Grader/Copy Test Vectors.vi"/>
 			<Item Name="Create Unit Test.vi" Type="VI" URL="../Private/Create Unit Test.vi"/>
 			<Item Name="Entry Source To Working.vi" Type="VI" URL="../Private/Grader/Entry Source To Working.vi"/>
 			<Item Name="Get Challenge Config By Id.vi" Type="VI" URL="../Private/Get Challenge Config By Id.vi"/>
 			<Item Name="Get Test Vectors.vi" Type="VI" URL="../Private/Grader/Get Test Vectors.vi"/>
+			<Item Name="Get User Info.vi" Type="VI" URL="../Private/Grader/Get User Info.vi"/>
+			<Item Name="Get UTF Execution Time.vi" Type="VI" URL="../Private/Grader/Get UTF Execution Time.vi"/>
+			<Item Name="Get UTF Results.vi" Type="VI" URL="../Private/Grader/Get UTF Results.vi"/>
+			<Item Name="Get UTF Status.vi" Type="VI" URL="../Private/Grader/Get UTF Status.vi"/>
 			<Item Name="Load Challenge Data.vi" Type="VI" URL="../Private/Load Challenge Data.vi"/>
-			<Item Name="Load Unit Test Paths.vi" Type="VI" URL="../Private/Grader/Load Unit Test Paths.vi"/>
+			<Item Name="Load Custom Test Config Data.vi" Type="VI" URL="../Private/Grader/Load Custom Test Config Data.vi"/>
+			<Item Name="Load General Challenge Config Data.vi" Type="VI" URL="../Private/Grader/Load General Challenge Config Data.vi"/>
+			<Item Name="Load Unit Test Config Data.vi" Type="VI" URL="../Private/Grader/Load Unit Test Config Data.vi"/>
+			<Item Name="Load VI Analyzer Test Config Data.vi" Type="VI" URL="../Private/Grader/Load VI Analyzer Test Config Data.vi"/>
 			<Item Name="Prep Tests.vi" Type="VI" URL="../Private/Grader/Prep Tests.vi"/>
 		</Item>
 		<Item Name="Worker" Type="Folder">
@@ -46,5 +60,4 @@
 		<Item Name="VI Grader.vi" Type="VI" URL="../Public/VI Grader.vi"/>
 		<Item Name="Worker Main.vi" Type="VI" URL="../Public/Worker Main.vi"/>
 	</Item>
-	<Item Name="Copy Test Vectors.vi" Type="VI" URL="../Private/Grader/Copy Test Vectors.vi"/>
 </Library>

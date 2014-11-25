@@ -11,10 +11,10 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Challenges" Type="Folder"/>
 		<Item Name="Test Apps" Type="Folder">
 			<Item Name="Grader Test Helper.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/VIChallenge/Test Apps/Grader Test Helper.vi"/>
 		</Item>
+		<Item Name="Challenges" Type="Folder"/>
 		<Item Name="config.ini" Type="Document" URL="/&lt;vilib&gt;/LabVIEW Hacker/VIChallenge/config.ini"/>
 		<Item Name="VIChallenge.lvlib" Type="Library" URL="../VIChallenge.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
