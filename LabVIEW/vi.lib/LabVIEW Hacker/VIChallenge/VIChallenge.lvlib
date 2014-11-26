@@ -9,55 +9,63 @@
 </Property>
 	<Item Name="Private" Type="Folder">
 		<Item Name="Database" Type="Folder">
-			<Item Name="Build DB Connection String.vi" Type="VI" URL="../Private/Database/Build DB Connection String.vi"/>
-			<Item Name="Close Database Connection.vi" Type="VI" URL="../Private/Database/Close Database Connection.vi"/>
-			<Item Name="Insert Challenge Entry.vi" Type="VI" URL="../Private/Database/Insert Challenge Entry.vi"/>
-			<Item Name="Open Database Connection.vi" Type="VI" URL="../Private/Database/Open Database Connection.vi"/>
+			<Item Name="Build DB Connection String.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/VIChallenge/Private/Database/Build DB Connection String.vi"/>
+			<Item Name="Close Database Connection.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/VIChallenge/Private/Database/Close Database Connection.vi"/>
+			<Item Name="Insert Challenge Entry.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/VIChallenge/Private/Database/Insert Challenge Entry.vi"/>
+			<Item Name="Open Database Connection.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/VIChallenge/Private/Database/Open Database Connection.vi"/>
 		</Item>
 		<Item Name="Grader" Type="Folder">
 			<Item Name="Type Defs" Type="Folder">
-				<Item Name="Grader Result.ctl" Type="VI" URL="../Private/Grader/Type Defs/Grader Result.ctl"/>
-				<Item Name="Test Type.ctl" Type="VI" URL="../Private/Grader/Type Defs/Test Type.ctl"/>
-				<Item Name="UTF Case Result.ctl" Type="VI" URL="../Private/Grader/Type Defs/UTF Case Result.ctl"/>
-				<Item Name="UTF Result.ctl" Type="VI" URL="../Private/Grader/Type Defs/UTF Result.ctl"/>
-				<Item Name="UTF Status.ctl" Type="VI" URL="../Private/Grader/Type Defs/UTF Status.ctl"/>
+				<Item Name="Grader Result.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/VIChallenge/Private/Grader/Type Defs/Grader Result.ctl"/>
+				<Item Name="Test Type.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/VIChallenge/Private/Grader/Type Defs/Test Type.ctl"/>
+				<Item Name="UTF Case Result.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/VIChallenge/Private/Grader/Type Defs/UTF Case Result.ctl"/>
+				<Item Name="UTF Result.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/VIChallenge/Private/Grader/Type Defs/UTF Result.ctl"/>
+				<Item Name="UTF Status.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/VIChallenge/Private/Grader/Type Defs/UTF Status.ctl"/>
 			</Item>
-			<Item Name="Archive Source File.vi" Type="VI" URL="../Private/Grader/Archive Source File.vi"/>
-			<Item Name="Challenge.ctl" Type="VI" URL="../Private/Grader/Type Defs/Challenge.ctl"/>
-			<Item Name="Copy Test Vectors.vi" Type="VI" URL="../Private/Grader/Copy Test Vectors.vi"/>
-			<Item Name="Create Unit Test.vi" Type="VI" URL="../Private/Create Unit Test.vi"/>
-			<Item Name="Entry Source To Working.vi" Type="VI" URL="../Private/Grader/Entry Source To Working.vi"/>
-			<Item Name="Get Challenge Config By Id.vi" Type="VI" URL="../Private/Get Challenge Config By Id.vi"/>
-			<Item Name="Get Test Vectors.vi" Type="VI" URL="../Private/Grader/Get Test Vectors.vi"/>
-			<Item Name="Get User Info.vi" Type="VI" URL="../Private/Grader/Get User Info.vi"/>
-			<Item Name="Get UTF Execution Time.vi" Type="VI" URL="../Private/Grader/Get UTF Execution Time.vi"/>
-			<Item Name="Get UTF Results.vi" Type="VI" URL="../Private/Grader/Get UTF Results.vi"/>
-			<Item Name="Get UTF Status.vi" Type="VI" URL="../Private/Grader/Get UTF Status.vi"/>
-			<Item Name="Load Challenge Data.vi" Type="VI" URL="../Private/Load Challenge Data.vi"/>
-			<Item Name="Load Custom Test Config Data.vi" Type="VI" URL="../Private/Grader/Load Custom Test Config Data.vi"/>
-			<Item Name="Load General Challenge Config Data.vi" Type="VI" URL="../Private/Grader/Load General Challenge Config Data.vi"/>
-			<Item Name="Load Unit Test Config Data.vi" Type="VI" URL="../Private/Grader/Load Unit Test Config Data.vi"/>
-			<Item Name="Load VI Analyzer Test Config Data.vi" Type="VI" URL="../Private/Grader/Load VI Analyzer Test Config Data.vi"/>
-			<Item Name="Prep Tests.vi" Type="VI" URL="../Private/Grader/Prep Tests.vi"/>
+			<Item Name="Archive Source File.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/VIChallenge/Private/Grader/Archive Source File.vi"/>
+			<Item Name="Challenge.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/VIChallenge/Private/Grader/Type Defs/Challenge.ctl"/>
+			<Item Name="Copy Test Vectors.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/VIChallenge/Private/Grader/Copy Test Vectors.vi"/>
+			<Item Name="Create Unit Test.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/VIChallenge/Private/Create Unit Test.vi"/>
+			<Item Name="Custom Test Static Ref.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/VIChallenge/Private/Grader/Custom Test Static Ref.vi"/>
+			<Item Name="Custom Test Template.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/VIChallenge/Private/Grader/Custom Test Template.vi"/>
+			<Item Name="Entry Source To Working.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/VIChallenge/Private/Grader/Entry Source To Working.vi"/>
+			<Item Name="Get Challenge Config By Id.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/VIChallenge/Private/Get Challenge Config By Id.vi"/>
+			<Item Name="Get Main User VI.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/VIChallenge/Private/Grader/Get Main User VI.vi"/>
+			<Item Name="Get Test Vectors.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/VIChallenge/Private/Grader/Get Test Vectors.vi"/>
+			<Item Name="Get User Info.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/VIChallenge/Private/Grader/Get User Info.vi"/>
+			<Item Name="Get UTF Execution Time.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/VIChallenge/Private/Grader/Get UTF Execution Time.vi"/>
+			<Item Name="Get UTF Results.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/VIChallenge/Private/Grader/Get UTF Results.vi"/>
+			<Item Name="Get UTF Status.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/VIChallenge/Private/Grader/Get UTF Status.vi"/>
+			<Item Name="Load Challenge Data.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/VIChallenge/Private/Load Challenge Data.vi"/>
+			<Item Name="Load Custom Test Config Data.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/VIChallenge/Private/Grader/Load Custom Test Config Data.vi"/>
+			<Item Name="Load General Challenge Config Data.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/VIChallenge/Private/Grader/Load General Challenge Config Data.vi"/>
+			<Item Name="Load Unit Test Config Data.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/VIChallenge/Private/Grader/Load Unit Test Config Data.vi"/>
+			<Item Name="Load VI Analyzer Test Config Data.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/VIChallenge/Private/Grader/Load VI Analyzer Test Config Data.vi"/>
+			<Item Name="Merge Results.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/VIChallenge/Private/Grader/Merge Results.vi"/>
+			<Item Name="Prep Tests.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/VIChallenge/Private/Grader/Prep Tests.vi"/>
+			<Item Name="Run All Custom Tests.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/VIChallenge/Private/Grader/Run All Custom Tests.vi"/>
+			<Item Name="Run All Unit Tests.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/VIChallenge/Private/Grader/Run All Unit Tests.vi"/>
 		</Item>
 		<Item Name="Worker" Type="Folder">
 			<Item Name="Type Defs" Type="Folder">
 				<Item Name="Database" Type="Folder">
-					<Item Name="Score.ctl" Type="VI" URL="../Private/Type Defs/Database/Score.ctl"/>
-					<Item Name="Table_challenge_entries.ctl" Type="VI" URL="../Private/Type Defs/Database/Table_challenge_entries.ctl"/>
+					<Item Name="Score.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/VIChallenge/Private/Type Defs/Database/Score.ctl"/>
+					<Item Name="Table_challenge_entries.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/VIChallenge/Private/Type Defs/Database/Table_challenge_entries.ctl"/>
 				</Item>
-				<Item Name="JSON_job.ctl" Type="VI" URL="../Private/Type Defs/JSON_job.ctl"/>
-				<Item Name="JSON_status.ctl" Type="VI" URL="../Private/Type Defs/JSON_status.ctl"/>
-				<Item Name="VIChallenge Config.ctl" Type="VI" URL="../Private/Type Defs/VIChallenge Config.ctl"/>
-				<Item Name="Worker State.ctl" Type="VI" URL="../Public/Worker State.ctl"/>
+				<Item Name="JSON_job.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/VIChallenge/Private/Type Defs/JSON_job.ctl"/>
+				<Item Name="JSON_job_complete_status.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/VIChallenge/Private/Type Defs/JSON_job_complete_status.ctl"/>
+				<Item Name="JSON_status.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/VIChallenge/Private/Type Defs/JSON_status.ctl"/>
+				<Item Name="VIChallenge Config.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/VIChallenge/Private/Type Defs/VIChallenge Config.ctl"/>
+				<Item Name="Worker State.ctl" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/VIChallenge/Public/Worker State.ctl"/>
 			</Item>
-			<Item Name="Load Config.vi" Type="VI" URL="../Private/Load Config.vi"/>
-			<Item Name="Poll For Jobs.vi" Type="VI" URL="../Private/Poll For Jobs.vi"/>
-			<Item Name="Send Status.vi" Type="VI" URL="../Private/Send Status.vi"/>
+			<Item Name="Load Config.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/VIChallenge/Private/Load Config.vi"/>
+			<Item Name="Poll For Jobs.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/VIChallenge/Private/Poll For Jobs.vi"/>
+			<Item Name="Send Status Complete.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/VIChallenge/Private/Send Status Complete.vi"/>
+			<Item Name="Send Status.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/VIChallenge/Private/Send Status.vi"/>
 		</Item>
 	</Item>
 	<Item Name="Public" Type="Folder">
-		<Item Name="VI Grader.vi" Type="VI" URL="../Public/VI Grader.vi"/>
-		<Item Name="Worker Main.vi" Type="VI" URL="../Public/Worker Main.vi"/>
+		<Item Name="VI Grader.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/VIChallenge/Public/VI Grader.vi"/>
+		<Item Name="Worker Main.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/VIChallenge/Public/Worker Main.vi"/>
 	</Item>
 </Library>
