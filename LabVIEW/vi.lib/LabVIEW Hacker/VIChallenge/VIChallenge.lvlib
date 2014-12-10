@@ -27,7 +27,7 @@
 			<Item Name="Copy Test Vectors.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/VIChallenge/Private/Grader/Copy Test Vectors.vi"/>
 			<Item Name="Create Unit Test.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/VIChallenge/Private/Create Unit Test.vi"/>
 			<Item Name="Custom Test Static Ref.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/VIChallenge/Private/Grader/Custom Test Static Ref.vi"/>
-			<Item Name="Custom Test Template.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/VIChallenge/Private/Grader/Custom Test Template.vi"/>
+			<Item Name="Custom Test Template.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/VIChallenge/Challenges/Core/Math/Fibonacci Sequence/Custom Tests/Custom Test Template.vi"/>
 			<Item Name="Entry Source To Working.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/VIChallenge/Private/Grader/Entry Source To Working.vi"/>
 			<Item Name="Get Challenge Config By Id.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/VIChallenge/Private/Get Challenge Config By Id.vi"/>
 			<Item Name="Get Main User VI.vi" Type="VI" URL="/&lt;vilib&gt;/LabVIEW Hacker/VIChallenge/Private/Grader/Get Main User VI.vi"/>
